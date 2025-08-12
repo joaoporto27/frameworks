@@ -1,0 +1,33 @@
+.card{
+    background-color: #fff;
+    border: 2px dashed #33333363;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 18rem;
+    height: 25rem;
+    text-align: center;
+}
+
+.card:hover{
+    color: #000DA7;
+    border-color: #000DA7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.title{
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;  
+    margin-bottom: 0.5rem;
+}
+
+.description{
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666;
+}
+
