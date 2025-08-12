@@ -34,9 +34,8 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #000DA7;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    color: #141DBA;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .cards {
@@ -48,7 +47,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    background-color: #f8f8f8;
+    background-color: #8d8d8d23;
     flex-direction: column;
 }
 

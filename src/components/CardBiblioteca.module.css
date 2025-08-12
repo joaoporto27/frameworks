@@ -1,0 +1,58 @@
+.cardBiblioteca {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0.75rem;
+  margin: 0; 
+  transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 15rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardBiblioteca:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+
+
+.titulo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.descricao {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.link {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #0d47a1;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-start; 
+  align-items: flex-start;
+}
