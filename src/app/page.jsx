@@ -5,6 +5,9 @@ import Cards from "../components/Cards";
 export default function Home() {
     return (
         <div className={styles.container}>
+            <Cards />
+
+            <CardComponent />
             <div className={styles.title}>
 
             <h1>Grupo</h1>
