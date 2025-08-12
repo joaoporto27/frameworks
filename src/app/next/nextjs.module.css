@@ -12,15 +12,16 @@
 }
 
 .subtitle {
+    color: #000DA7;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 .whatisit {
-    max-width: 370rem;
+    max-width: 90rem;
     font-size: 1.2rem;
     line-height: 1.6;
-    background-color: #ccc;
+    background-color: #f8f8f8;
     border: 2px dashed #333;
     border-radius: 2rem;
     padding: 1rem;
@@ -39,6 +40,7 @@
 }
 
 .cards {
+    max-width: 90rem;
     border-radius: 1rem;
     padding: 2rem;
     margin-top: 2rem;
