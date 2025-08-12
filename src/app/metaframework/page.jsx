@@ -14,6 +14,22 @@ export default function MetaFramework() {
             title="Exemplos de Metaframeworks"
             description="Alguns exemplos de meta-frameworks incluem o Next.js (que é construído sobre o React) e o NestJS (que é construído sobre o Express)."
             />
+            <CardDescricao
+            title="Prós e Contras"
+            description="Prós: Abstrai configurações complexas.
+                            Melhora performance (ex: renderização híbrida).
+                            Integrações prontas (API, SSR, autenticação).
+                        Contras: Difícil de entender o que está por trás.
+                            Maior dependência de ferramentas externas."
+            />
+            <CardDescricao
+            title="Funcionalidades principais"
+            description="Organização de múltiplos frameworks, Configuração zero ou mínima, SEO otimizado (no caso de front-ends), Renderização híbrida (CSR + SSR), Deploy facilitado"
+            />
+            <CardDescricao 
+            title="Utilizada em sala de aula"
+            description="O meta framework que será utilizado em sala de aula é o Next.js"
+            />
             <div className={styles.carroseldeimagens}>
                 <CardImage 
                 src="/images/Next-Icon.png"
@@ -24,20 +40,20 @@ export default function MetaFramework() {
                 description="Um framework React para produção"
                 />  
                  <CardImage 
-                src="/images/Next-Icon.png"
+                src="/images/nuxt.png"
                 alt="Descrição da imagem"
                 width={200}
                 height={200}
-                title="Next.js"
-                description="Um framework React para produção"
+                title="Nuxt.js"
+                description="Um framework Vue para produção"
                 />  
                  <CardImage 
-                src="/images/Next-Icon.png"
+                src="/images/nest.jpg"
                 alt="Descrição da imagem"
                 width={200}
                 height={200}
-                title="Next.js"
-                description="Um framework React para produção"
+                title="Nest.js"
+                description="Um framework Node.js para construção de aplicações eficientes"
                 />  
             </div>
         </div>
