@@ -1,4 +1,4 @@
-.card{
+.card {
     background-color: #fff;
     border: 2px dashed #33333363;
     border-radius: 1rem;
@@ -7,24 +7,28 @@
     transition: all 0.3s ease;
     width: 18rem;
     height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     text-align: center;
+    align-items: center;
 }
 
-.card:hover{
+.card:hover {
     color: #000DA7;
     border-color: #000DA7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
 
-.title{
+.title {
     display: flex;
     font-size: 1.4rem;
     font-weight: bold;  
     margin-bottom: 0.5rem;
 }
 
-.description{
+.description {
     margin: 0;
     font-size: 1.2rem;
     line-height: 1.5;
