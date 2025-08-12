@@ -5,24 +5,14 @@
   padding: 0.75rem;
   margin: 0; 
   transition: box-shadow 0.2s;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  width: 15rem;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.container{
-    display: flex;
-    flex-direction: row;
+  gap: 1rem;
+  width: 16rem;
+ 
 }
 
 .cardBiblioteca:hover {
   box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
-
-
 
 .titulo {
   font-size: 1.4rem;
@@ -37,22 +27,20 @@
   margin-bottom: 12px;
 }
 
-.link {
-  color: #1976d2;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.link:hover {
-  color: #0d47a1;
-}
 
 .cardsContainer {
   display: flex;
   flex-direction: row; 
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 2rem;
   justify-content: flex-start; 
   align-items: flex-start;
+  max-width: calc(4 * 16rem + 3 * 0.75rem);
+}
+
+.cardsConteiner:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  
 }

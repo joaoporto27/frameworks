@@ -4,7 +4,7 @@ import styles from "./CardBiblioteca.module.css"
 
 export default function CardComponent() {
     return (
-        <div className={styles.container} style={{ gap: 12 }}>
+        <div className={styles.cardsContainer}>
             <Card
                 className={styles.card}
                 style={{ width: 160, padding: 12 }}
@@ -130,26 +130,6 @@ export default function CardComponent() {
                 style={{ width: 160, padding: 12 }}
                 cover={
                     <img
-                        alt="Nuxt.js"
-                        src="https://upload.wikimedia.org/wikipedia/commons/8/8e/NuxtJS_Logo.png"
-                        style={{ height: 60, objectFit: "contain", padding: 8 }}
-                    />
-                }
-            >
-                <div style={{ display: "flex", alignItems: "center", marginBottom: 6 }}>
-                    <Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=7" size={28} />
-                    <span style={{ marginLeft: 6, fontWeight: "bold", fontSize: "1rem" }}>Nuxt.js</span>
-                </div>
-                <div>
-                    <span style={{ fontSize: "0.85rem" }}>Nuxt.js é um framework para aplicações Vue com renderização SSR.</span>
-                </div>
-            </Card>
-
-            <Card
-                className={styles.card}
-                style={{ width: 160, padding: 12 }}
-                cover={
-                    <img
                         alt="NestJS"
                         src="https://nestjs.com/img/logo-small.svg"
                         style={{ height: 60, objectFit: "contain", padding: 8 }}
@@ -182,6 +162,27 @@ export default function CardComponent() {
                 </div>
                 <div>
                     <span style={{ fontSize: "0.85rem" }}>Ember.js é um framework para criação de aplicações web ambiciosas.</span>
+                </div>
+            </Card>
+
+            {/* Novo Card para Nuxt.js */}
+            <Card
+                className={styles.card}
+                style={{ width: 160, padding: 12 }}
+                cover={
+                    <img
+                        alt="Nuxt.js"
+                        src="https://nuxt.com/assets/design-kit/logo/icon-green.svg"
+                        style={{ height: 60, objectFit: "contain", padding: 8 }}
+                    />
+                }
+            >
+                <div style={{ display: "flex", alignItems: "center", marginBottom: 6 }}>
+                    <Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=11" size={28} />
+                    <span style={{ marginLeft: 6, fontWeight: "bold", fontSize: "1rem" }}>Nuxt.js</span>
+                </div>
+                <div>
+                    <span style={{ fontSize: "0.85rem" }}>Nuxt.js é um framework para aplicações Vue com renderização híbrida.</span>
                 </div>
             </Card>
         </div>

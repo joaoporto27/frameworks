@@ -7,7 +7,7 @@ export default function Home() {
         <div className={styles.container}>
             <Cards />
 
-            <CardComponent />
+        
             <div className={styles.title}>
 
             <h1>Grupo</h1>
