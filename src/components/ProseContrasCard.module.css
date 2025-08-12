@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(138, 101, 101, 0.1);
+    height: auto;
+}
+
+.pros {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.contras {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
