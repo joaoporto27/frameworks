@@ -7,10 +7,8 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.activitytitle}>
         <h1>Atividade Mini Wiki Tech + Pesquisa de Tecnologias</h1>
-        <div className={styles.container}>
-            <Cards />
-            <CardComponent />
-            <div className={styles.title}>
+      </div>
+
       <div className={styles.title}>
         <h1>Grupo</h1>
       </div>
