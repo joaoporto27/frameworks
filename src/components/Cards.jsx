@@ -1,16 +1,12 @@
 import React from 'react';
+import styles from './Cards.module.css';
 
-export default function Home() {
+export default function Home({ titulo, nome, descricao }) {
     return (
-    <div style={{
-        border: '1px solid #ccc',
-        borderRadius: '8px',
-        padding: '16px',
-        maxWidth: '300px',
-        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-    }}>
-        <h2>Título do Card</h2>
-        <p>Este é um card simples feito com React.</p>
+    <div className={styles.card}>
+        <h2>{titulo}</h2>
+        <h3>{nome}</h3>
+        <p>{descricao}</p>
     </div>
     );
 }
