@@ -37,7 +37,18 @@ export default function NextJs() {
                 <CardNextjs title="Melhorias no Erro de Hidratação" description="Mensagens de erro e visualização aprimoradas para erros de hidratação, com sugestões de como lidar com o problema.  " />
                 </div>
             </div>
-            {/* colocar as curiosidades aqui */}
+            <div className={styles.cards}>
+                <p className={styles.titleCard}>Curiosidades e características interessantes do Next.js:</p>
+                <div className={styles.style}>
+                <CardNextjs title="Roteamento Simplificado" description="Ao contrário do React puro, o Next.js possui roteamento integrado, eliminando a necessidade de bibliotecas adicionais como o React Router. Além disso, oferece suporte para rotas dinâmicas, o que é muito útil em muitos casos." />
+                <CardNextjs title="Otimização de Imagens" description="O Next.js possui otimização automática de imagens, o que pode ser uma grande vantagem, já que gerenciar e otimizar imagens manualmente pode ser demorado." />
+                <CardNextjs title="Renderização Híbrida" description= "O Next.js suporta tanto a renderização do lado do servidor (SSR) quanto a geração estática de sites (SSG), permitindo escolher a melhor abordagem para cada página ou seção do seu site/aplicação." />  
+                <CardNextjs title="SEO Amigável" description="O Next.js facilita a otimização de SEO, permitindo que seus sites e aplicações sejam mais facilmente encontrados pelos motores de busca. " />
+                <CardNextjs title="Construído para o Futuro" description="O Next.js está sempre evoluindo e incorporando as últimas novidades do ecossistema React, como Componentes de Servidor e Ações." />
+                <CardNextjs title="Desempenho" description="O Next.js é conhecido por seu desempenho rápido, com recursos como pré-busca de rotas, carregamento otimizado de recursos e geração de imagens responsiva." />
+                <CardNextjs title="Otimização com Turbopack" description="O Next.js está integrando o Turbopack, um empacotador incremental otimizado para JavaScript e TypeScript, escrito em Rust, para builds ainda mais rápidos." />
+                <CardNextjs title="Empresa Vercel" description="O Next.js foi criado por Guillermo Rauch, que também é o CEO da Vercel, a empresa por trás do framework. " />
+            </div>
             <div className={styles.cards}>
                 <p className={styles.titleCard}>Empresas usuárias </p>
             <div className={styles.style}>
@@ -50,6 +61,24 @@ export default function NextJs() {
                 <CardNextEmpre image="/images/nerdWallet.png" alt="NerdWallet" title="NerdWallet"  />
             </div>
             </div>
+            <div className={styles.cards}>
+                <p className={styles.titleCard}>Áreas de atuação</p>
+                <div className={styles.style}>
+                <CardNextjs title="Desenvolvimento Front-end" description="O Next.js é amplamente utilizado para criar interfaces de usuário responsivas e performáticas, incluindo páginas estáticas e aplicações com renderização do lado do servidor." />
+                <CardNextjs title="Desenvolvimento Full-stack" description="É possível combinar Next.js com outros frameworks backend, como o NestJS, para construir aplicações completas, com foco em escalabilidade e otimização." />
+                <CardNextjs title="Desenvolvimento de Micro-SaaS" description= "Next.js é uma excelente escolha para criar e lançar micro-serviços, devido à sua capacidade de otimizar o carregamento de páginas e a experiência do usuário." />  
+                <CardNextjs title="Sites e Portais de Conteúdo" description="Sua capacidade de lidar com grandes volumes de conteúdo, juntamente com o desempenho otimizado, torna o Next.js ideal para blogs, portais de notícias e sites com muito conteúdo. " />
+                </div>
+            </div>
+            <div className={styles.cards}>
+                <p className={styles.titleCard}>Oportunidade de carreira</p>
+                <div className={styles.style}>
+                <CardNextjs title="Desenvolvedor Next.js" description="Empresas de diversos tamanhos procuram desenvolvedores com experiência em Next.js para projetos que variam de sites estáticos a aplicações web complexas." />
+                <CardNextjs title="Desenvolvedor Front-end com Next.js" description="A crescente demanda por desenvolvedores que dominam React e Next.js abre portas para vagas que exigem conhecimentos em renderização do lado do servidor, otimização de imagens e outros recursos avançados. " />
+                <CardNextjs title="Desenvolvedor Full-stack com Next.js" description= "A combinação de Next.js com frameworks backend como NestJS cria oportunidades para desenvolvedores que buscam trabalhar em projetos mais abrangentes e com foco em desempenho e escalabilidade. " />  
+                </div>
+            </div>
+        </div>
         </div>
     )
 }
