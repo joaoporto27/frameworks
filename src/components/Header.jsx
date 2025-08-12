@@ -22,6 +22,9 @@ export default function Header() {
                     <li className={styles.link}>
                         <Link href="/next">Next 15</Link>
                     </li>
+                    <li className={styles.link}>
+                        <Link href="/specialArchives">Arquivos Especiais</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
