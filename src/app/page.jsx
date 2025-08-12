@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
 import Cards from "../components/Cards";
-import CardComponent from "../components/CardBiblioteca";
 
 export default function Home() {
     return (
@@ -9,6 +8,42 @@ export default function Home() {
             <Cards />
 
             <CardComponent />
+            <div className={styles.title}>
+
+            <h1>Grupo</h1>
+            </div>
+            <div className={styles.cardsContainer}>
+            <Cards
+                titulo="Título do Card"
+                nome="Nome do Card"
+                descricao="Descrição do Card"
+                />
+            <Cards
+                titulo="Título do Card"
+                nome="Nome do Card"
+                descricao="Descrição do Card"
+                />
+            <Cards
+                titulo="Título do Card"
+                nome="Nome do Card"
+                descricao="Descrição do Card"
+                />
+            <Cards
+                titulo="Título do Card"
+                nome="Nome do Card"
+                descricao="Descrição do Card"
+                />
+            <Cards
+                titulo="Título do Card"
+                nome="Nome do Card"
+                descricao="Descrição do Card"
+                />
+            <Cards
+                titulo="Título do Card"
+                nome="Nome do Card"
+                descricao="Descrição do Card"
+                />
+                </div>
         </div>
     );
 }
