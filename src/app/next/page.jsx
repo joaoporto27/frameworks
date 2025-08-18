@@ -1,6 +1,8 @@
 import styles from "./nextjs.module.css";
 import CardNextjs from "../../components/CardNextjs/CardNextjs";
 import CardNextEmpre from "../../components/CardNextEmpre/CardNextEmpre";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function NextJs() {
     return (
@@ -79,6 +81,31 @@ export default function NextJs() {
                 </div>
             </div>
         </div>
+        <div className={styles.footer}>
+                <p>Página desenvolvida por:</p>
+                <div className={styles.developers}>
+                    <Link href="https://github.com/souzabweatriz" className={styles.logo}>
+                        <Image
+                            src="/images/github.jpg"
+                            className={styles.image}
+                            alt="Logo GitHub Ana Beatriz"
+                            width={30}
+                            height={30}
+                        />
+                        Ana Beatriz
+                    </Link>
+                    <Link href="https://github.com/isab5" className={styles.logo}>
+                        <Image
+                            src="/images/github.jpg"
+                            className={styles.image}
+                            alt="Logo GitHub Isabela Borin"
+                            width={30}
+                            height={30}
+                        />
+                        Isabela Borin
+                    </Link>
+                </div>
+            </div>
         </div>
     )
 }
