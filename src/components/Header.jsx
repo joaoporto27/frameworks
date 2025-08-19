@@ -17,7 +17,7 @@ export default function Header() {
                         <Link href="/metaframework">Metaframework</Link>
                     </li>
                     <li className={styles.link}>
-                        <Link href="/biblioteca">Biblioteca de Estilos</Link>
+                        <Link href="/bibliotecas">Bibliotecas de Estilos</Link>
                     </li>
                     <li className={styles.link}>
                         <Link href="/next">Next 15</Link>

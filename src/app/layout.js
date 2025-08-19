@@ -5,7 +5,7 @@ export const metadata = {
     title: "Projeto Framework",
     description: "Projeto sobre frameworks ",
     icons: {
-        icon: "/icons/favicon.ico",
+        icon: "/favicon.ico",
     },
 };
 

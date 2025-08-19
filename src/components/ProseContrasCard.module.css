@@ -1,23 +1,54 @@
+
 .container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    width: 70%;
     background-color: #f9f9f9;
-    border: 1px solid #eee;
+    border: 1px solid #b49090;
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(138, 101, 101, 0.1);
     height: auto;
 }
 
-.pros {
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.centro {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.pros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  hyphens: auto;
+  margin-right: 1rem;
+}
+
+.linha {
+  width: 2px;
+  background: #ccc;
+  height: 100px;
+  align-self: center;
 }
 
 .contras {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  align-items: center;
+  hyphens: auto;
+  margin-left: 1rem;
 }
