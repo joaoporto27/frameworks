@@ -35,9 +35,3 @@
     flex-direction: row;
     gap: 1rem;
 }
-
-.image{
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    object-fit: cover;
-}

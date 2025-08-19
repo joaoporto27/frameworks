@@ -1,20 +1,12 @@
 import React from "react";
-import styles from "./specialArchive.module.css";
-import CardSpecialArchive from "../../components/CardSpecialArchive/CardSpecialArchive";
-import { SpecialArchive } from "../script/SpecialArchive";
-import Image from "next/image";
+import styles from "./SpecialArchives.module.css"
+import CardSpecialArchive from "@/components/CardSpecialArchives/CardSpecialArchives";
+import { SpecialArchive } from "../data/SpecialArchive";
 
 export default function SpecialArchivesPage() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Arquivos especiais</h1>
-        <Image
-            src="/images/nextJs.png"
-            alt="Arquivos Especiais"
-            width={200}
-            height={100}
-            className={styles.image}
-        />
       <p className={styles.description}>Bem-vindo à página de arquivos especiais!</p>
       <div className={styles.content}>
         <h1>Diferença e função dos arquivos: error.js / global-error.js:</h1>
