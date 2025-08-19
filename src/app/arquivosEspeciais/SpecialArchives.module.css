@@ -35,3 +35,8 @@
     flex-direction: row;
     gap: 1rem;
 }
+
+.image{
+    border-radius: 25px;
+    object-fit: cover;
+}
